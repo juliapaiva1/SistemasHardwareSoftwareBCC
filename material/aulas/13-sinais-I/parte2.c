@@ -10,7 +10,8 @@ int main() {
     if (filho == 0) {
         int i = 1/0;
         printf("Meu pid: %d\n", getpid());
-        while(1)
+        while(1){
+        }
     }
 
     int ws;
@@ -23,10 +24,7 @@ int main() {
     WIFEXITED(ws),
     WIFSIGNALED(ws),
     WTERMSIG(ws),
-    strsignal(ws))
-
-
-    
+    strsignal WTERMSIG(ws));
 
     return 0;
 }
