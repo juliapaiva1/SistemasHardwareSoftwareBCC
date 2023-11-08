@@ -1,0 +1,7 @@
+Permissoes de arquivo
+
+Leitura - 4
+Escrita - 2
+Execucao - 1
+
+Codigo formado por tres numeros: proprietario, grupo seleto e todas as pessoas 
